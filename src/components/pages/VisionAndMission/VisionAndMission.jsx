@@ -7,9 +7,7 @@ import './VisionAndMission.css';
 //     </>
 //   );
 // }
-import React from 'react';
-
-const AboutUs = () => {
+const VisionMission = () => {
   return (
     <div>
       <section>
@@ -56,4 +54,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default VisionMission;
