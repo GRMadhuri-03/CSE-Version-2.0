@@ -31,8 +31,31 @@ export default function POs() {
         </div>
         <div className="drops">
           <h3>History</h3>
+
+          <div class="title-section text-center about1">
+            <h2>History</h2>
+            <span></span>
+          </div>
+          <div class="row about2">
+            <div class="col-md-12">
+              <h4 class="widget-title">National Institute Of Technology</h4>
+              <p className="p2">
+                The institute is committed to the challenging task of
+                development of technical education by preparing seasoned
+                graduates in highly sophisticated field of engineering and
+                technology. Development of India as an emerging industrial power
+                is a demanding exercise as it involves the combination of cost
+                effectiveness and efficiency along with producing world-class
+                technology at the cutting edge. For about five decades we have
+                been doing it with sincerity and commitment at NIT Raipur. At
+                present the institute offers graduate level courses in twelve
+                disciplines.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
+
       {/* <h1 className="consulting">Publications</h1> */}
       {/* <Footer /> */}
     </>
