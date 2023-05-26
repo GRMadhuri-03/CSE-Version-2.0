@@ -15,7 +15,7 @@ export default function VisionAndMission() {
             <ul className="side-link">
               <li>
                 <div className="side-border-left" />
-                <Link to="/VisionAndMission">History</Link>
+                <Link to="/History">History</Link>
               </li>
               <li>
                 <div className="side-border-left" />
@@ -31,29 +31,19 @@ export default function VisionAndMission() {
         </div>
         <div className="drops">
           <h3>Vision</h3>
-          <div id="about" class="section-cotent ">
-            <div class="container">
-              <div class="title-section text-center about1">
-                <h2>About CSE Department</h2>
-                <span></span>
-              </div>
-              <div class="row about2">
-                <div class="col-md-12">
-                  <h4 class="widget-title">National Institute Of Technology</h4>
-                  <p className="p2">
-                    The institute is committed to the challenging task of
-                    development of technical education by preparing seasoned
-                    graduates in highly sophisticated field of engineering and
-                    technology. Development of India as an emerging industrial
-                    power is a demanding exercise as it involves the combination
-                    of cost effectiveness and efficiency along with producing
-                    world-class technology at the cutting edge. For about five
-                    decades we have been doing it with sincerity and commitment
-                    at NIT Raipur. At present the institute offers graduate
-                    level courses in twelve disciplines.
-                  </p>
-                </div>
-              </div>
+          <div class="title-section text-center about1">
+            <span></span>
+          </div>
+          <div class="row about2">
+            <div class="col-md-12">
+              <p className="p2">
+                To promote Research and Development in the frontier areas of
+                Computer Science & Engineering. To generate Competent
+                Professionals to become part of the industry and Research
+                Organizations at the National and International levels. To
+                provide necessary strengths to enable the students to Innovate
+                and to become Entrepreneurs.
+              </p>
             </div>
           </div>
         </div>

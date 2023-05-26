@@ -33,12 +33,10 @@ export default function POs() {
           <h3>History</h3>
 
           <div class="title-section text-center about1">
-            <h2>History</h2>
             <span></span>
           </div>
           <div class="row about2">
             <div class="col-md-12">
-              <h4 class="widget-title">National Institute Of Technology</h4>
               <p className="p2">
                 The institute is committed to the challenging task of
                 development of technical education by preparing seasoned
