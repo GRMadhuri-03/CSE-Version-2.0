@@ -1,5 +1,5 @@
 import React from 'react';
-import './POs.css';
+import './History.css';
 import { Link } from 'react-router-dom';
 export default function POs() {
   return (
@@ -15,7 +15,7 @@ export default function POs() {
             <ul className="side-link">
               <li>
                 <div className="side-border-left" />
-                <Link to="/VisionAndMission">History</Link>
+                <Link to="/History">History</Link>
               </li>
               <li>
                 <div className="side-border-left" />
@@ -30,7 +30,7 @@ export default function POs() {
           </div>
         </div>
         <div className="drops">
-          <h3>POs</h3>
+          <h3>History</h3>
         </div>
       </div>
       {/* <h1 className="consulting">Publications</h1> */}

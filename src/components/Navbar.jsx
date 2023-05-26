@@ -45,6 +45,11 @@ export default function Navbar() {
             <div className="jt"></div>
             <ul className="animenu_nav_child">
               <li>
+                <Link to="/History" onClick={handleMenuToggle}>
+                  History
+                </Link>
+              </li>
+              <li>
                 <Link to="/VisionAndMission" onClick={handleMenuToggle}>
                   Vision and Mission
                 </Link>
