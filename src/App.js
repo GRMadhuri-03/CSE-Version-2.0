@@ -5,6 +5,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/pages/Home/Home';
 import About from './components/pages/About/About';
+import VisionAndMission from './components/pages/VisionAndMission/VisionAndMission';
 import People from './components/pages/People/FacultyOverview';
 import POs from './components/pages/POs/POs';
 import ResearchAreas from './components/pages/Research/Research';
@@ -26,6 +27,7 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="About" component={About} />
         <Route path="/POs" component={POs} />
+        <Route path="/VisionAndMission" component={VisionAndMission} />
         <Route path="/Research-Areas" component={ResearchAreas} />
         <Route path="/Research-Areas" component={ResearchAreas} />
         <Route path="/Project" component={Project} />
