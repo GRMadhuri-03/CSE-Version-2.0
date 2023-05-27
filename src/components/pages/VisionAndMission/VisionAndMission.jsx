@@ -46,6 +46,17 @@ export default function VisionAndMission() {
               </p>
             </div>
           </div>
+          <h3>Mission</h3>
+          <div class="title-section text-center about1">
+            <span></span>
+          </div>
+          <div class="row about2">
+            <div class="col-md-12">
+              <p className="p2">
+              To impart effective education at undergraduate levels in the field of Computer Science and Engineering. To strive steadily for the overall growth and development of intellect and personality of the students who, as professionals, would be confident to face the challenges of the world of work. To conduct Research and Development and offer consultancy services. To improve continuously the quality of teaching-learning process.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       {/* <h1 className="consulting">Publications</h1> */}
