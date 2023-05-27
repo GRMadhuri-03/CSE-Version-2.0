@@ -62,8 +62,8 @@ export default function Navbar() {
             </ul>
           </li>
           <li className="parent-menu">
-            <Link to="/People" onClick={handleMenuToggle}>
-              People
+            <Link to="/Faculty" onClick={handleMenuToggle}>
+              Faculty
             </Link>
           </li>
           <li className="parent-menu">
