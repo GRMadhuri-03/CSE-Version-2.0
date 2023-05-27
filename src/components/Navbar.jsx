@@ -45,7 +45,7 @@ export default function Navbar() {
             <div className="jt"></div>
             <ul className="animenu_nav_child">
               <li>
-                <Link to="/History" onClick={handleMenuToggle}>
+                <Link to="/About" onClick={handleMenuToggle}>
                   History
                 </Link>
               </li>

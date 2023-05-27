@@ -71,7 +71,7 @@ export default function FacultyOverview() {
           <FacultyCard
             name={faculty.name}
             picture={faculty.picture}
-            Desiginition={faculty.Desiginition}
+            Designition={faculty.Designition}
             email={faculty.email}
             phone={faculty.phone}
           />

@@ -15,7 +15,7 @@ export default function POs() {
             <ul className="side-link">
               <li>
                 <div className="side-border-left" />
-                <Link to="/History">History</Link>
+                <Link to="/About">History</Link>
               </li>
               <li>
                 <div className="side-border-left" />
