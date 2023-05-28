@@ -63,7 +63,7 @@ export default function Navbar() {
           </li>
           <li className="parent-menu">
             <Link to="/Faculty" onClick={handleMenuToggle}>
-              Faculty
+              People
             </Link>
           </li>
           <li className="parent-menu">

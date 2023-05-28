@@ -7,6 +7,9 @@ import Home from './components/pages/Home/Home';
 import About from './components/pages/About/About';
 import VisionAndMission from './components/pages/VisionAndMission/VisionAndMission';
 import Faculty from './components/pages/Faculty/Faculty';
+import AssistantProfessor from './components/pages/Faculty/AssistantProfessor';
+import TempararyFaculty from './components/pages/Faculty/TempararyFaculty';
+import Staff from './components/pages/Faculty/Staff';
 import POs from './components/pages/POs/POs';
 import History from './components/pages/History/History';
 import ResearchAreas from './components/pages/Research/Research';
@@ -29,6 +32,9 @@ function App() {
         <Route path="About" component={About} />
         <Route path="/POs" component={POs} />
         <Route path="/Faculty" component={Faculty} />
+        <Route path="/AssistantProfessor" component={AssistantProfessor} />
+        <Route path="/TempararyFaculty" component={TempararyFaculty} />
+        <Route path="/Staff" component={Staff} />
         <Route path="/About" component={About} />
         <Route path="/VisionAndMission" component={VisionAndMission} />
         <Route path="/Research-Areas" component={ResearchAreas} />
