@@ -1,0 +1,74 @@
+/* History.css */
+
+.main-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.side-box {
+  width: 20%;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.side-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.side-top-box {
+  margin-bottom: 20px;
+}
+
+.side-link {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-link li {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.side-link li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.side-link li .side-border-left {
+  position: absolute;
+  left: -10px;
+  top: 6px;
+  height: 4px;
+  width: 4px;
+  background-color: #333;
+  border-radius: 50%;
+}
+
+.drops {
+  width: 70%;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.title-section {
+  margin-bottom: 20px;
+}
+
+.about2 {
+  display: flex;
+  justify-content: center;
+}
+
+.p2 {
+  line-height: 1.5;
+}
+
+/* Additional Styles */
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}

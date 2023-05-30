@@ -7,25 +7,60 @@ export default function FacultyOverview() {
   const facultyMembers = [
 
     {
-      name: 'Dr. Dilip Singh Sisodia ',
-      picture: 'https://i.postimg.cc/fVdbRHgW/img1.png',
-      Designition: 'Associate Professor',
-      email: 'Email: dssisodia.cs@nitrr.ac.in',
-      phone: 'Phone: 8462808174',
+      name: 'Dr.Aakanksha Sharaff',
+      picture: 'https://i.postimg.cc/3d48tShj/img4.png',
+      Designition: 'Assistant Professor',
+      email: 'Email: asharaff.cs@nitrr.ac.in',
+      phone: 'Phone: 8817813946',
     },
     {
-      name: 'Dr. Naresh K. Nagwani',
-      picture: 'https://i.postimg.cc/DWgnSRQh/img2.png',
-      Designition: 'Associate Professor',
-      email: 'Email:nknagwani.cs@nitrr.ac.in',
-      phone: 'Phone:9993312001',
+      name: 'Dr. Veena Anand',
+      picture: 'https://i.postimg.cc/6TTtQj8s/img5.png',
+      Designition: 'Assistant Professor',
+      email: 'Email:vanand.cs@nitrr.ac.in',
+      phone: 'Phone:7587071023',
     },
     {
-      name: 'Dr. Pradeep Singh',
-      picture: 'https://i.postimg.cc/r0wcxggr/img3.png',
-      Designition: 'Associate Professor',
-      email: 'Email:psingh.cs@nitrr.ac.in',
-      phone: 'Phone:9407627366',
+      name: 'Dr. Manu Vardhan',
+      picture: 'https://i.postimg.cc/CBsBLv5n/img6.png',
+      Designition: 'Assistant Professor',
+      email: 'Email:mvardhan.cs@nitrr.ac.in',
+      phone: 'Phone:9770543061',
+    },
+    {
+      name: 'Dr. Preeti Chandraka',
+      picture: 'https://i.postimg.cc/V5z0HcZq/img7.png',
+      Designition: 'Assistant Professor Grade-I',
+      email: 'Email:pchandrakar.cs@nitrr.ac.in',
+      phone: 'Phone:7003171408',
+    },
+    {
+      name: 'Dr. K. Jairam Naik',
+      picture: 'https://i.postimg.cc/BLSZNJZt/img8.png" alt="img8',
+      Designition: 'Assistant Professor',
+      email: 'Email:jnaik.cse@nitrr.ac.in',
+      phone: 'Phone:09959971548',
+    },
+    {
+      name: 'Dr. Deepak Singh',
+      picture: 'https://i.postimg.cc/560YbSVj/img9.png" alt="img9',
+      Designition: 'Assistant Professor Grade-II',
+      email: 'Email:dsingh.cs@nitrr.ac.in',
+      phone: 'Phone:9827916708',
+    },
+    {
+      name: 'Dr. Sonal Yadav',
+      picture: 'https://i.postimg.cc/tngTRp88/img10.png" alt="img10',
+      Designition: 'Assistant Professor Grade-II',
+      email: 'Email:syadav.cse@nitrr.ac.in',
+      phone: 'Phone:9785999900',
+    },
+    {
+      name: 'Dr. Jitendra Kumar Rout',
+      picture: 'https://i.postimg.cc/nj2rtCSv/img11.png" alt="img11',
+      Designition: 'Assistant Professor',
+      email: 'Email:jkrout.cs@nitrr.ac.in',
+      phone: 'Phone:7008153233',
     },
     // Add more faculty members here...
   ];
@@ -52,7 +87,7 @@ export default function FacultyOverview() {
                 </li>
                 <li>
                   <div className="side-border-left" />
-                  <Link to="/TemparyFaculty">Temparary Faculty</Link>
+                  <Link to="/TempararyFaculty">Temparary Faculty</Link>
                 </li>
                 <li>
                   <div className="side-border-left" />
@@ -62,7 +97,7 @@ export default function FacultyOverview() {
             </div>
           </div>
           <div className="drops">
-            <h4>Head Of The Department</h4>
+            <h4>Assistant Professor</h4>
 
             <div>
               {facultyMembers.map((faculty, index) => (
@@ -74,7 +109,6 @@ export default function FacultyOverview() {
                     email={faculty.email}
                     phone={faculty.phone}
                   />
-                  {index === 0 && <h4>Associate Professor</h4>}
                 </React.Fragment>
               ))}
             </div>

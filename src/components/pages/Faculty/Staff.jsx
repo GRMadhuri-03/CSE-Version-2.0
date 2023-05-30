@@ -6,11 +6,53 @@ import './FacultyCard.css';
 export default function FacultyOverview() {
   const facultyMembers = [
     {
-      name: 'Dr. Dilip Singh Sisodia ',
-      picture: 'https://i.postimg.cc/fVdbRHgW/img1.png',
-      Designition: 'Associate Professor',
+      name: 'Mr. Naveen Prakash Sharma',
+      picture: 'https://i.postimg.cc/4Nfp8jsh/Mr-Sharma.jpg',
+      Designition: 'Technical Assistant ( SG-I )',
       email: 'Email: dssisodia.cs@nitrr.ac.in',
       phone: 'Phone: 8462808174',
+    },
+    {
+      name: 'Ravishankar Sahu',
+      picture: 'https://i.postimg.cc/MHNMK3fz/Ravishankar-Sahu.jpg',
+      Designition: 'Technical Assistant ( SG-I )',
+      email: 'Email: dssisodia.cs@nitrr.ac.in',
+      phone: 'Phone: 8462808174',
+    },
+    {
+      name: 'Ravi Shankar Pandey',
+      picture: 'https://i.postimg.cc/PqCxVs6K/Ravi-Shankar-Pandey.jpg',
+      Designition: 'Technical Assistant ( SG-I )',
+      email: 'Email: dssisodia.cs@nitrr.ac.in',
+      phone: 'Phone: 8462808174',
+    },
+    {
+      name: 'Laxman Kumar Dhivar',
+      picture: 'https://i.postimg.cc/fTy69zkH/Laxman-Kumar-Dhivar.jpg',
+      Designition: 'Technical Assistant ( SG-I )',
+      email: 'Email: dssisodia.cs@nitrr.ac.in',
+      phone: 'Phone: 8462808174',
+    },
+    {
+      name: 'Anjali Parate',
+      picture: 'https://i.postimg.cc/tRwLF0Pp/Ms-Parate.jpg',
+      Designition: 'Technical Assistant ( SG-I )',
+      email: 'Email: dssisodia.cs@nitrr.ac.in',
+      phone: 'Phone: 8462808174',
+    },
+    {
+      name: 'Mr. Rama Shankar Vastrakar',
+      picture: 'https://i.postimg.cc/4dKW3dWt/Mr-Rama-Shankar-Vastrakar.jpg',
+      Designition: 'Office Assistant',
+      email: 'Email:rama.shankar83@gmail.com',
+      phone: 'Phone:7898987826',
+    },
+    {
+      name: 'Mr. Ajay Kumar',
+      picture: 'https://i.postimg.cc/9F1Zv2pj/Mr-Ajay-Kumar.jpg',
+      Designition: 'Office Attendant',
+      email: 'Email: 1979kumarajay@gmail.com',
+      phone: 'Phone:7748894589',
     },
    
     // Add more faculty members here...
@@ -48,7 +90,7 @@ export default function FacultyOverview() {
             </div>
           </div>
           <div className="drops">
-            <h4>Head Of The Department</h4>
+            <h4>Staff</h4>
 
             <div>
               {facultyMembers.map((faculty, index) => (
@@ -60,7 +102,6 @@ export default function FacultyOverview() {
                     email={faculty.email}
                     phone={faculty.phone}
                   />
-                  {index === 0 && <h4>Associate Professor</h4>}
                 </React.Fragment>
               ))}
             </div>

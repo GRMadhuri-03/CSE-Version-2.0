@@ -6,18 +6,32 @@ import './FacultyCard.css';
 export default function FacultyOverview() {
   const facultyMembers = [
     {
-      name: 'Dr. Dilip Singh Sisodia ',
-      picture: 'https://i.postimg.cc/fVdbRHgW/img1.png',
-      Designition: 'Associate Professor',
-      email: 'Email: dssisodia.cs@nitrr.ac.in',
-      phone: 'Phone: 8462808174',
+      name: 'Mr. Nilesh Kumar Verma',
+      picture: 'https://i.postimg.cc/L6TfPSYb/ninesh.jpg',
+      Designition: 'Temporary Faculty',
+      email: 'Email: nkverma.cs@nitrr.ac.in',
+      phone: 'Phone: 9770406560',
     },
     {
-      name: 'Dr. Naresh K. Nagwani',
-      picture: 'https://i.postimg.cc/DWgnSRQh/img2.png',
-      Designition: 'Associate Professor',
-      email: 'Email:nknagwani.cs@nitrr.ac.in',
-      phone: 'Phone:9993312001',
+      name: 'Mr. Ravi Kumar',
+      picture: 'https://i.postimg.cc/tYwTy0km/img12.png" alt="img12',
+      Designition: 'Temporary Faculty',
+      email: 'Email:rkumar.cs@nitrr.ac.in',
+      phone: 'Phone:9753053016',
+    },
+    {
+      name: 'Mr. Abhishek Shrivastava',
+      picture: 'https://i.postimg.cc/nMVMGGMT/img13.png" alt="img13',
+      Designition: 'Temporary Faculty',
+      email: 'Email:abhi2711it@gmail.com',
+      phone: 'Phone:9926135652',
+    },
+    {
+      name: 'Mr. Vishal Sathawane',
+      picture: 'https://i.postimg.cc/Y4wCG1J6/img14.png" alt="img14',
+      Designition: 'Temporary Faculty',
+      email: 'Email:vhsathawane@gmail.com',
+      phone: 'Phone:7709489118',
     },
    
     // Add more faculty members here...
@@ -55,7 +69,7 @@ export default function FacultyOverview() {
             </div>
           </div>
           <div className="drops">
-            <h4>Head Of The Department</h4>
+            <h4>Temparary Faculty</h4>
 
             <div>
               {facultyMembers.map((faculty, index) => (
@@ -67,7 +81,7 @@ export default function FacultyOverview() {
                     email={faculty.email}
                     phone={faculty.phone}
                   />
-                  {index === 0 && <h4>Associate Professor</h4>}
+                  
                 </React.Fragment>
               ))}
             </div>
