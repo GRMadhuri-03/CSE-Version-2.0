@@ -7,6 +7,7 @@ import Home from './components/pages/Home/Home';
 import About from './components/pages/About/About';
 import VisionAndMission from './components/pages/VisionAndMission/VisionAndMission';
 import Faculty from './components/pages/Faculty/Faculty';
+import FacultyDetail from './components/pages/Faculty/FacultyDetail';
 import AssistantProfessor from './components/pages/Faculty/AssistantProfessor';
 import TempararyFaculty from './components/pages/Faculty/TempararyFaculty';
 import Staff from './components/pages/Faculty/Staff';
@@ -32,6 +33,8 @@ function App() {
         <Route path="About" component={About} />
         <Route path="/POs" component={POs} />
         <Route path="/Faculty" component={Faculty} />
+        <Route path="/FacultyDetail" component={FacultyDetail} />
+        <Route path="/Faculty/:FacultyId" component={FacultyDetail} />
         <Route path="/AssistantProfessor" component={AssistantProfessor} />
         <Route path="/TempararyFaculty" component={TempararyFaculty} />
         <Route path="/Staff" component={Staff} />

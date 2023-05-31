@@ -22,9 +22,11 @@
 .contact-details h3 {
   margin: 0;
   font-size: 18px;
+  text-align:left;
 }
 
 .contact-details p {
   margin: 8px 0;
   font-size: 14px;
+  text-align: left;
 }

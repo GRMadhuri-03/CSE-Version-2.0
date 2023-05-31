@@ -46,6 +46,7 @@ export default function VisionAndMission() {
               </p>
             </div>
           </div>
+          <div style={{ margin: '20px 0' }}></div>
           <h3>Mission</h3>
           <div class="title-section text-center about1">
             <span></span>

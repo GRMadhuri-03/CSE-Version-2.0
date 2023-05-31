@@ -67,19 +67,20 @@ export default function FacultyOverview() {
             </div>
           </div>
           <div className="drops">
-            <h4>Head Of The Department</h4>
+            <h3>Head Of The Department</h3>
             
             <div>
       {facultyMembers.map((faculty, index) => (
         <React.Fragment key={faculty.name}>
-          <FacultyCard
-            name={faculty.name}
-            picture={faculty.picture}
-            Designition={faculty.Designition}
-            email={faculty.email}
-            phone={faculty.phone}
-          />
-          {index === 0 && <h4>Associate Professor</h4>}
+                  <FacultyCard
+                    name={faculty.name}
+                    picture={faculty.picture}
+                    Designition={faculty.Designition}
+                    email={faculty.email}
+                    phone={faculty.phone}
+                  />
+
+          {index === 0 && <h3>Associate Professor</h3>}
         </React.Fragment>
       ))}
     </div>
